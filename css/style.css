@@ -1,0 +1,44 @@
+/* Created by: MariaG
+* Created on: March 28, 2022
+* This CSS file defines the style for index.html
+* ICS2O-Unit2-05-HTML-Salary
+*/
+
+body {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+h1 {
+  text-align: center;
+  background-color: #f25933;
+  color: white;
+  padding: 20px;
+  font-family: Arial Narrow, Arial, sans-serif;
+}
+
+p {
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  color: #2c199d;
+}
+
+form {
+  font-family: Arial, sans-serif;
+}
+
+#calculations {
+  background-color: #fdf89c;
+  color: #352a78;
+  padding: 20px;
+}
+
+#orange {
+  padding: 20px;
+  background-color: #dfc6ee;
+}

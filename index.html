@@ -21,16 +21,20 @@
     <!-- Link to JS file -->
     <script src="./js/script.js"></script>
     <h1>Calculating Pay and Tax Based on Hours Worked and Hourly Rate</h1>
-    <h3>Welcome!</h3>
-    <p>Welcome! Use this website to calculate the actual amount of money you will be paid, based on the number of hours you have worked and your hourly rate, as well as the amount of money that will be taken from your salary in taxes. Please input your information below:</p>
-    <!-- Form for user input -->
-    <form action="javascript:enterClicked()">
-      <label for="hours">Number of hours worked</label>
-      <input type="number" id="hours-worked" placeholder="Hours worked..."><br><br>
-      <label for="rate">Hourly rate</label>
-      <input type="number" id="hourly-rate" placeholder="Your hourly rate..." min="1"><br><br>
-      <input type="submit" value="Calculate">
-    </form>
+    <!-- Div for style -->
+    <div id="orange">
+      <h3>Welcome!</h3>
+      <p>Welcome! Use this website to calculate the actual amount of money you will be paid, based on the number of hours you have worked and your hourly rate, as well as the amount of money that will be taken from your salary in taxes. Please input your information below:</p>
+      <h3>Your Input:</h3>
+      <!-- Form for user input -->
+      <form action="javascript:enterClicked()">
+        <label for="hours">Number of hours worked</label>
+        <input type="number" id="hours-worked" placeholder="Hours worked..."><br><br>
+        <label for="rate">Hourly rate</label>
+        <input type="number" id="hourly-rate" placeholder="Your hourly rate..." min="1"><br><br>
+        <input type="submit" value="Calculate">
+      </form>
+    </div>
     <h3>Results:</h3>
     <!-- Div for calculations -->
     <div id="calculations">

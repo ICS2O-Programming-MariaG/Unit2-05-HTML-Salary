@@ -14,5 +14,5 @@ function enterClicked() {
   let tax = total * TAX_RATE;
   let pay = total - tax;
   //Calculations
-  document.getElementById("calculations").innerHTML = "The amount of money you'll take home is " + pay.toFixed(2) + ".<br>The amount of money put to taxes is " + tax.toFixed(2) + ".";
+  document.getElementById("calculations").innerHTML = "The amount of money you'll take home is $" + pay.toFixed(2) + ".<br>The amount of money put to taxes is $" + tax.toFixed(2) + ".";
 }
